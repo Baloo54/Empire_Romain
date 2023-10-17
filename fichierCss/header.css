@@ -2,6 +2,8 @@
     font-family: 'handwriting-draft_free-version';
     src: url(../font/handwriting-draft_free-version.ttf);
 }
+
+
 header{
     display: block;
     height: 15%;
@@ -9,6 +11,8 @@ header{
     margin-top: 2%;
     border-bottom: dotted black 3px;
 }
+
+
 header ul{
     display: flex;
     flex-direction: row;
