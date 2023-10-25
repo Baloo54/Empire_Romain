@@ -1,0 +1,6 @@
+
+.principale{
+    display: grid;
+    grid-template-columns: 15% 75%;
+    margin-left: 2%;
+}

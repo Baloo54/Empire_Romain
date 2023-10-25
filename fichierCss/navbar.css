@@ -3,15 +3,6 @@
     src: url(../font/handwriting-draft_free-version.ttf);
 }
 
-
-
-
-div {
-    display: grid;
-    grid-template-columns: 15% 75%;
-    margin-left: 2%;
-}
-
 nav {
     grid-column-start: 1;
     border-right: dotted black 3px;
