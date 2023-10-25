@@ -1,4 +1,8 @@
-
+h1{
+    font-size: 2em;
+    font-family: 'handwriting-draft_free-version';
+    text-align: center;
+}
 .principale{
     display: grid;
     grid-template-columns: 15% 85%;
@@ -12,12 +16,18 @@
     grid-column: 2;
     grid-row: 1;   
 }
-.article3 h1{
-    font-size: 2em;
-    font-family: 'handwriting-draft_free-version';
-    text-align: center;
-}
 .article3 img{
     width: 100%;
     height: 100%;
+    border: solid black 1px;
+}
+.article3 h2{
+    font-size: 1.5em;
+    font-family: 'handwriting-draft_free-version';
+    text-align: center;
+}
+.article3 p{
+    font-size: 1.2em;
+    font-family: 'handwriting-draft_free-version';
+    text-align: center;
 }
