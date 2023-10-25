@@ -6,7 +6,8 @@
 nav {
     grid-column-start: 1;
     border-right: dotted black 3px;
-    position: sticky;
+    position: fixed;
+    grid-column: 1;
     
 }
 
