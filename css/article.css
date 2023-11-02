@@ -7,7 +7,8 @@
 }
 .article1, .article2, .article3, .article4{
     grid-column: 2;
-    margin-bottom: 3%;    
+    margin-bottom: 2%;
+    margin-top: 1%;    
     padding-bottom: 2%;
     margin-left: 1%;
     border-bottom: solid black 1px;
@@ -17,6 +18,10 @@
     font-family: 'handwriting-draft_free-version';
 }
 
+h2{
+    font-size: 1.5em;
+    text-align: center;
+}
 /* article 1 et article 4 */
 
 .article1, .article4{
@@ -41,9 +46,7 @@
 .article1 .text, .article4 .text{
     margin: 0% 2% 0% 2%;
 }
-.article1 .text h2, .article4 .text h2{
-    text-align: center;
-}
+
 
 /* article 3 et article 2*/
 .article3, .article2{
@@ -55,11 +58,6 @@
     object-fit: contain;  
     border: solid black 1px;
     margin: 0% 5% 0% 5%;
-}
-.article3 h2, .article2 h2{
-    font-size: 1.5em;
-    font-family: 'handwriting-draft_free-version';
-    text-align: center;
 }
 .article3 p, .article2 p{
     text-align: center;
